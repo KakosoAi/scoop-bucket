@@ -1,5 +1,5 @@
 {
-    "version": "0.10.1",
+    "version": "0.11.0",
     "description": "A git client for Windows, built with WinUI 3.",
     "homepage": "https://github.com/KakosoAi/gitxen",
     "license": "GPL-3.0-or-later",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KakosoAi/gitxen/releases/download/gitxen-v0.10.1/Gitxen-0.10.1-x64.zip",
-            "hash": "AFE828705A597DE65994DE045FBC4781AA2D047B6F7B6A4EC07B5EA69739648B"
+            "url": "https://github.com/KakosoAi/gitxen/releases/download/gitxen-v0.11.0/Gitxen-0.11.0-x64.zip",
+            "hash": "D56AAAA2B1E46225C2312CA2C811D082F5F01DFCDFD07C069DFFB5D66FB5C004"
         }
     },
     "bin": [
