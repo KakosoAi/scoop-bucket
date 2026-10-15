@@ -1,0 +1,43 @@
+{
+    "version": "0.10.1",
+    "description": "A git client for Windows, built with WinUI 3.",
+    "homepage": "https://github.com/KakosoAi/gitxen",
+    "license": "GPL-3.0-or-later",
+    "notes": [
+        "Gitxen is free software under the GPL-3.0-or-later, (c) 2026 Kakoso. This is a beta.",
+        "Run it with `gitxen`, or from the Start menu shortcut."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/KakosoAi/gitxen/releases/download/gitxen-v0.10.1/Gitxen-0.10.1-x64.zip",
+            "hash": "AFE828705A597DE65994DE045FBC4781AA2D047B6F7B6A4EC07B5EA69739648B"
+        }
+    },
+    "bin": [
+        [
+            "Gitxen.exe",
+            "gitxen"
+        ],
+        "gx.exe"
+    ],
+    "shortcuts": [
+        [
+            "Gitxen.exe",
+            "Gitxen"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/KakosoAi/gitxen",
+        "regex": "gitxen-v([0-9.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/KakosoAi/gitxen/releases/download/gitxen-v$version/Gitxen-$version-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/KakosoAi/gitxen/releases/download/gitxen-v$version/SHA256SUMS.txt"
+        }
+    }
+}
